@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kartu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #e1306c; /* Warna khas Instagram */
+            margin-bottom: 15px;
+        }
+
+        .full-name {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .instagram-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #e1306c;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .instagram-link:hover {
+            background-color: #c13584;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+       
+        <img src="daff.jpg" alt="Foto Profil" class="profile-img">
+        
+        <div class="full-name">Dafi Lutfi Arofi</div>
+        
+        <p style="color: #666; font-size: 0.9rem;">Photographer</p>
+
+        <a href="https://instagram.com/justdap_1" target="_blank" class="instagram-link">
+            follow my Instagram
+        </a>
+    </div>
+
+</body>
+</html>
